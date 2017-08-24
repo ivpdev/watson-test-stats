@@ -1,0 +1,11 @@
+---
+applications:
+- name: conversation-test-stats
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+    - chatbot-main
+  env:
+    NPM_CONFIG_PRODUCTION: false

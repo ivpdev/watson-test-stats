@@ -1,0 +1,17 @@
+{
+	"watsonConversation": {
+		"workspaceId": "write here workspace Id of your Watson Conversation service"
+	},
+
+	"watsonDiscovery": {
+		"collectionId": "your collection id",
+		"environmentId": "your environment id"
+    },
+
+	"watsonRetrieveAndRank": {
+        "solrClusterId": "solr cluster id",
+		"collectionName": "your collection name",
+		"rankerId": "your ranker id"
+    }
+
+}
